@@ -30,7 +30,7 @@ var predictPartyVictory = function(senate) {
         if (r < d) {
             rad.push(r + senate.length); // add the next index to the end of the array
         } else {
-            dire.push(d + senate.length); // add the next index to the end of the array
+            dire.push(d + senate.length);
         }
     }
     if (rad.length > 0) {
